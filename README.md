@@ -36,7 +36,7 @@ A standalone, console-based ATM Simulation application developed in C++ using th
 3. Open a terminal or command prompt in that directory.
 4. Compile the program:
 
-```bash
+```bash id="2l8q0m"
 g++ ATM_System.cpp -o ATMSystem
 ```
 
@@ -44,16 +44,16 @@ g++ ATM_System.cpp -o ATMSystem
 
 * Windows:
 
-```bash
+```bash id="9c1v4a"
 ATMSystem.exe
 ```
 
 * Linux / macOS:
 
-```bash
+```bash id="v6p2kd"
 ./ATMSystem
 ```
 
 ## 🧑‍💻 Developer
 
-Developed by **Mohammad Abdeqlader**.
+Developed by **Mohammad Abdalqader**.
