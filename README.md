@@ -1,46 +1,58 @@
 # ATM Simulation System (C++)
 
-A standalone, console-based ATM Simulation application developed in C++ using the Functional Programming paradigm. This project focuses on simulating user-facing automated teller machine workflows, user authentication, and real-time transaction tracking.
+A standalone, console-based ATM Simulation application developed in C++ using the Functional Programming paradigm. This project simulates the core operations of an Automated Teller Machine (ATM), including user authentication, withdrawals, and account balance management.
 
-## ✨ Core Features
+## ✨ Features
 
-* **User Authentication:** Simulates ATM card logging with secure credentials validation before accessing banking operations.
-* **Quick Withdrawal:** Provides pre-defined standard withdrawal shortcuts for common cash amounts to enhance user experience.
-* **Normal Withdrawal:** Allows customized transaction amounts with strict real-time verification against the client's current account balance.
-* **Live Balance Tracking:** Instantly displays real-time account balances after each financial operation.
+* Secure user authentication using account number and PIN code.
+* Quick withdrawal options for common cash amounts.
+* Custom withdrawal amounts with balance verification.
+* Real-time balance updates after each transaction.
+* Persistent client data storage using text files.
+* Simple and user-friendly console interface.
 
 ## 📁 Project Files
 
-This repository contains the clean source files required to run the application:
+* `ATM_System.cpp` – Main source code containing the ATM system implementation.
+* `ClientsFile.txt` – Client database used for storing account information and balances.
 
-* `ATMSystemCourse8.cpp`: The primary C++ source file containing the complete ATM system logic.
-* `ClientsFile.txt`: The text database used to store, verify, and update client account data and balances.
+## 🛠️ Concepts Demonstrated
 
-## 🛠️ Concepts & Skills Demonstrated
+* Functional Programming in C++.
+* File Handling (File I/O).
+* Input Validation.
+* Data Processing and Record Management.
+* Modular Programming using Functions.
 
-* **Functional Paradigm:** Designing predictable system behaviors using clean procedural and modular C++ functions.
-* **Input Validation:** Implementing continuous boundary and type-checking to prevent system logic crashes on invalid user entries.
-* **File I/O Handling:** Reading, parsing, and dynamically updating text-based records to keep balances persistent.
+## 🚀 How to Run
 
-## 🚀 How to Run the Project
+1. Clone or download the repository.
+2. Make sure both files:
 
-This repository contains the clean source code and its data file. You can easily compile and run it using any standard C++ compiler (like `g++`).
+   * `ATM_System.cpp`
+   * `ClientsFile.txt`
 
-1. Clone the repository to your local machine.
-2. **Important:** Make sure both `ATMSystemCourse8.cpp` and `ClientsFile.txt` are placed in the exact same folder.
-3. Open your terminal or command prompt in that directory.
-4. Compile the code using the following command:
+   are located in the same directory.
+3. Open a terminal or command prompt in that directory.
+4. Compile the program:
 
 ```bash
-g++ ATMSystemCourse8.cpp -o ATMSystem
+g++ ATM_System.cpp -o ATMSystem
 ```
 
 5. Run the executable:
 
-   * On Windows: `ATMSystem.exe`
-   * On Linux/Mac: `./ATMSystem`
+* Windows:
 
----
+```bash
+ATMSystem.exe
+```
+
+* Linux / macOS:
+
+```bash
+./ATMSystem
+```
 
 ## 🧑‍💻 Developer
 
